@@ -1,0 +1,17 @@
+@mixin marginLeft($left) {
+  margin-left: $left;
+}
+
+@mixin marginRight($right) {
+  margin-right: $right;
+}
+
+body {
+  @include marginLeft(10px);
+  @include marginRight(10px);
+}
+
+div {
+  @include marginLeft(15px);
+  @include marginRight(15px);
+}
