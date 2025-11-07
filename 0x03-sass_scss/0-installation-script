@@ -1,0 +1,10 @@
+#Install and set up SASS
+
+Download node. For windows OS, download and install the node LTS executable. IF you are using
+linux, use copy and paste this command in your terminal:
+"$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash"
+
+After you have successfully installed node, proceed on install SASS by typing the following
+command in your command prompt (for Windows OS) or terminal (for Linux OS):
+
+"npm install sass -v 3.7.4"
